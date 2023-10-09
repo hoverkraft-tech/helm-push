@@ -49,4 +49,6 @@ jobs:
           tags: ${{ env.IMAGE_NAME }}:${{ steps.imagetag.outputs.value }}
           file: Dockerfile
           platforms: ${{ env.PLATFORMS }}
+          secrets: |
+            "github_token=${{ secrets.CR_PAT }}"
           push: true
