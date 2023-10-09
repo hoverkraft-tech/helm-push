@@ -8,7 +8,7 @@ on:
       - "v[0-9]+.[0-9]+.[0-9]+"
 
 env:
-  IMAGE_NAME: ghcr.io/hoverkraft-tech/helm-push/action
+  IMAGE_NAME: ghcr.io/hoverkraft-tech/helm-push
   PLATFORMS: linux/amd64
 
 jobs:
