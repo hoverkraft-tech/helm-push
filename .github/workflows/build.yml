@@ -50,5 +50,5 @@ jobs:
           file: Dockerfile
           platforms: ${{ env.PLATFORMS }}
           secrets: |
-            "github_token=${{ secrets.GITHUB_TOKEN }}"
+            "github_token=${{ secrets.CR_PAT }}"
           push: true
